@@ -176,3 +176,5 @@ function displayArray([first, second, ...rest]) {
 const arr6 = [1, 2, 3, 4, 5];
 
 displayArray(arr6);
+
+// 
