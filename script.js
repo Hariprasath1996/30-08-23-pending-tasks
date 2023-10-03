@@ -157,4 +157,22 @@ arr5.forEach((obj) => {
 
 console.log(resultObject);
 
+// Write a program that takes a function with an array parameter and destructure the array
+// inside the function.
+// Sample Input:
+// function displayArray([first, second, ...rest]) {
+// console.log(`First Element: ${first}`);
+// console.log(`Second Element: ${second}`);
+// console.log(`Rest Elements: ${rest}`);
+// }
+// const arr = [1, 2, 3, 4, 5];
 
+function displayArray([first, second, ...rest]) {
+  console.log(`First Element: ${first}`);
+  console.log(`Second Element: ${second}`);
+  console.log(`Rest Elements: ${rest}`);
+}
+
+const arr6 = [1, 2, 3, 4, 5];
+
+displayArray(arr6);
